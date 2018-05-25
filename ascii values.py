@@ -1,4 +1,7 @@
-c =input()
-b=input()
-a=(ord(c))+(ord(b))
-print(a)
+a=input()
+b=0
+s=0
+for i in range(0,len(a)):
+ s=ord(a[i])
+ b=b+s
+print(b) 
